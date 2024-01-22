@@ -1,0 +1,103 @@
+body{
+  background-color: darkred;
+}
+.c{
+  font-size: 35px;
+  text-decoration: none;
+  color:darkred;
+}
+h3{
+  color:gold;
+  font-size:25px;
+}
+.d{
+  height:300px;
+  width:350px;
+  border: solid black;
+  border-radius: 25px;;
+}
+button{
+  background-color: yellow;
+  border-radius: 25px;
+  border:solid darkblue;
+  width:300px;
+}
+button:hover{
+  background-color: orange;
+  border-radius: 25px;
+  border:solid darkblue;
+  width:300px;
+}
+p{
+  color:yellow;
+  font-size:25px;
+  text-align: center;
+}
+  h1{
+    color:yellow;
+    font-weight: bold;
+    font-size:35px;
+    text-align: center;
+}
+h2{
+  color:yellow;
+  font-weight: bold;
+  font-size:25px;
+  text-align: center;
+}
+.a{
+  height:200px;
+  width:200px;
+  background-position: center;
+}
+@media(min-width:350px) and (max-width:600px){
+  body{
+    background-color: darkblue;
+  }
+  p{
+    color:goldenrod;
+    font-size:20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .c{
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+  }
+  button{
+    background-color: greenyellow;
+    border-radius: 25px;
+    border:solid red;
+    width:210px;
+  }
+  button:hover{
+    background-color: red;
+    border-radius: 25px;
+    border:solid red;
+    width:210px;
+  }
+  h1{
+    color:orange;
+    font-weight: bold;
+    font-size:20px;
+    text-align: center;
+}
+h2{
+  color:gold;
+  font-weight: bold;
+  font-size:20px;
+  text-align: center;
+}
+h3{
+  color:gold;
+  font-size:20px;
+}
+.d{
+  height:230px;
+  width:240px;
+  border: solid red;
+  border-radius: 20px;;
+}
+}
